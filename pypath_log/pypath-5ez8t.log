@@ -1,0 +1,16 @@
+[2025-02-18 09:49:56] Welcome!
+[2025-02-18 09:49:56] Logger started, logging into `/home/roger/project_LYPI/project_LYPI/pypath_log/pypath-5ez8t.log`.
+[2025-02-18 09:49:56] Session `5ez8t` started.
+[2025-02-18 09:49:56] Config has been read from the following files:
+[2025-02-18 09:49:56]   - /home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath_common/data/settings.yaml
+[2025-02-18 09:49:56] [pypath] 
+	- session ID: `5ez8t`
+	- working directory: `/home/roger/project_LYPI/project_LYPI`
+	- logfile: `/home/roger/project_LYPI/project_LYPI/pypath_log/pypath-5ez8t.log`
+	- config: 
+		- /home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath_common/data/settings.yaml
+	- pypath version: 0.16.19
+	- imported from: `/home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath`
+	- Python version: 3.9.21 | packaged by conda-forge | (main, Dec  5 2024, 13:51:40) 
+[GCC 13.3.0]
+	- Platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.31

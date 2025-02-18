@@ -1,0 +1,16 @@
+[2025-02-18 09:50:51] Welcome!
+[2025-02-18 09:50:51] Logger started, logging into `/home/roger/project_LYPI/project_LYPI/pypath_log/pypath-ljve7.log`.
+[2025-02-18 09:50:51] Session `ljve7` started.
+[2025-02-18 09:50:51] Config has been read from the following files:
+[2025-02-18 09:50:51]   - /home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath_common/data/settings.yaml
+[2025-02-18 09:50:52] [pypath] 
+	- session ID: `ljve7`
+	- working directory: `/home/roger/project_LYPI/project_LYPI`
+	- logfile: `/home/roger/project_LYPI/project_LYPI/pypath_log/pypath-ljve7.log`
+	- config: 
+		- /home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath_common/data/settings.yaml
+	- pypath version: 0.16.19
+	- imported from: `/home/roger/miniforge3/envs/omni_env/lib/python3.9/site-packages/pypath`
+	- Python version: 3.9.21 | packaged by conda-forge | (main, Dec  5 2024, 13:51:40) 
+[GCC 13.3.0]
+	- Platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.31
