@@ -85,3 +85,14 @@ ggplot(sorted_counts, aes(x = reorder(identity, count), y = count)) +
 # Vdr.2 1.432354e-229   5.575646 0.435 0.014 2.392175e-225      Ng2+ MSCs  Vdr
 # Vdr.3  3.976234e-13   3.607292 0.158 0.020  6.640708e-09      Osteo-CAR  Vdr
 # Vdr.4  1.201194e-95   3.936367 0.434 0.018  2.006114e-91    Osteoblasts  Vdr
+
+
+#Output as a format readable in python
+
+library(SeuratDisk)
+
+
+# Convert Seurat object to AnnData format and save
+SaveH5Seurat(seurat_object, filename = paste0(wkdir,'lypi_1321_anndata.h5Seurat'))
+Convert(paste0(wkdir,'lypi_1321_anndata.h5Seurat'), dest = "h5ad")
+
