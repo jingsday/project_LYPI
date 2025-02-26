@@ -91,8 +91,11 @@ ggplot(sorted_counts, aes(x = reorder(identity, count), y = count)) +
 
 library(SeuratDisk)
 
+seurat_object$cell_type <- seurat_object@active.ident 
+seurat_object$cell_type <- as.character(Idents(seurat_object))  # Convert factors to characters
 
+  # Store active.ident in metadata
 # Convert Seurat object to AnnData format and save
 SaveH5Seurat(seurat_object, filename = paste0(wkdir,'lypi_1321_anndata.h5Seurat'))
 Convert(paste0(wkdir,'lypi_1321_anndata.h5Seurat'), dest = "h5ad")
-
+seurat_object@active.ident 
